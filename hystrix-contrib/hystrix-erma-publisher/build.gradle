@@ -1,0 +1,7 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+dependencies {
+    compile project(':hystrix-core')
+    compile 'com.orbitz.erma:erma-api:4.6'
+}
